@@ -1,0 +1,1 @@
+<annotations><filename>00000304.JPEG</filename><folder>images</folder><size><width>2600</width><height>2600</height><depth>3</depth></size><object><name>JulGran</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>1218.0</xmin><ymin>204.00000000000006</ymin><xmax>1649.0</xmax><ymax>923.0</ymax></bndbox></object></annotations>
