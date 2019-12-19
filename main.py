@@ -13,10 +13,12 @@ def main():
         arr=filename.split(".")
         if arr[1]=="JPEG":
             dst = arr[0]+ ".JPEG"
-            os.remove ('annotations/'+ dst )
+            src ='annotations/'+ filename 
+            dst ='images/'+ dst 
             
             # rename() function will 
             # rename all the files 
+            os.rename(src, dst) 
   
 # Driver Code 
 if __name__ == '__main__': 
